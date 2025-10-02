@@ -1,0 +1,37 @@
+{
+  "name": "@glowingblue-dev/shadow-css",
+  "version": "1.1.0",
+  "description": "Allow injecting CSS rules from a specified attribute into the shadow DOM of elements.",
+  "keywords": [
+    "shadow-dom",
+    "css",
+    "web-components",
+    "utility",
+    "browser"
+  ],
+  "author": "Glowing Blue AG",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glowingblue/shadow-css.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/glowingblue/shadow-css/issues"
+  },
+  "homepage": "https://github.com/glowingblue/shadow-css#readme",
+  "files": [
+    "src",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false
+}
